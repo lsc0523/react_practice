@@ -1,12 +1,12 @@
 import './App.css';
+import DiaryEditor from './DiaryEditor';
 
 
 function App() {
 
-  let name = "이승창"
-
   return (
     <div className="App">
+      <DiaryEditor/>
     </div>
   );
 }
